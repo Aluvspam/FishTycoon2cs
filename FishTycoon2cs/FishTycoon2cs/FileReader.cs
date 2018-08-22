@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace FishTycoon2cs
 {
@@ -16,7 +17,9 @@ namespace FishTycoon2cs
         public FileReader()
         {
             content = new String[22, 22];
-            reader = new StreamReader(@"\FishTycoon2Charts\Fin Breed Price.csv");
+            //Console.WriteLine(Path.GetDirectoryName(Application.ExecutablePath));
+            reader = new StreamReader(@"..\..\FishTycoon2Charts\Fin Breed Price.csv");
+
         }
 
 
