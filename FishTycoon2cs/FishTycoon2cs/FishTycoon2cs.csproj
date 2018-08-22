@@ -63,6 +63,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="FishTycoon2Charts\Breed Combo.csv" />
+    <None Include="FishTycoon2Charts\Breed Fin Price.csv" />
+    <None Include="FishTycoon2Charts\Fin Breed Price.csv" />
+    <None Include="FishTycoon2Charts\Fin Combo.csv" />
+    <None Include="FishTycoon2Charts\Findex Breed.csv" />
+    <None Include="FishTycoon2Charts\Findex Fin.csv" />
+    <None Include="FishTycoon2Charts\Magic Fish Description.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
