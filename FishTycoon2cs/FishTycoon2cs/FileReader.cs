@@ -8,5 +8,13 @@ namespace FishTycoon2cs
 {
     class FileReader
     {
+
+        String[,] content = null;
+
+        public FileReader()
+        {
+            content = new String[22, 22];
+        }
+
     }
 }
